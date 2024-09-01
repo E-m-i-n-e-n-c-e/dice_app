@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
         // backgroundColor: const Color.fromRGBO(255, 215, 0, 1),
         body: GradientContainer(
           "Hello World!",
-          colors: brightScheme,
-          // colors: darkScheme,
+          // colors: brightScheme,
+          colors: darkScheme,
         ),
       ),
     );
