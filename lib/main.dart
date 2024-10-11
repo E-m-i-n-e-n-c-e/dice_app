@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        // backgroundColor: const Color.fromRGBO(255, 215, 0, 1),
+        backgroundColor: Color.fromRGBO(255, 215, 0, 1),
         body: GradientContainer(
           "Roll the Dice",
           colors: brightScheme,

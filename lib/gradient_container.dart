@@ -16,6 +16,11 @@ class GradientContainer extends StatelessWidget {
   Widget build(context) {
     return Container(
       decoration: BoxDecoration(
+        // border: Border.all(
+        //   color: const Color.fromARGB(255, 160, 9, 9),
+        //   width: 2,
+        // ),
+        // borderRadius: BorderRadius.circular(1200000),
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
